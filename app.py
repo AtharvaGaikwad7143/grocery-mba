@@ -47,10 +47,10 @@ if st.button("Show Recommendations 🚀"):
             st.markdown(f"- {prod}")
 
 # Visualization 2 - Rules Analysis
-st.subheader("📈 Rule Quality Analysis")
-fig2, ax2 = plt.subplots()
-sc = ax2.scatter(rules['support'], rules['confidence'], 
-                c=rules['lift'], cmap='coolwarm', alpha=0.7)
-plt.colorbar(sc, label='Lift Score')
-ax2.set(xlabel="Support", ylabel="Confidence")
-st.pyplot(fig2)
+# st.subheader("📈 Rule Quality Analysis")
+# fig2, ax2 = plt.subplots()
+# sc = ax2.scatter(rules['support'], rules['confidence'], 
+#                 c=rules['lift'], cmap='coolwarm', alpha=0.7)
+# plt.colorbar(sc, label='Lift Score')
+# ax2.set(xlabel="Support", ylabel="Confidence")
+# st.pyplot(fig2)
