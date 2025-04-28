@@ -27,9 +27,9 @@ top10.sort_values().plot(kind='barh', color='teal', ax=ax1)
 plt.xlabel("Total Purchases")
 st.pyplot(fig1)
 
-# Product Selection
-selected = st.selectbox("Select a product you purchased:"), 
-                       sorted(data['itemDescription'].unique())
+selected = st.selectbox(
+    "Select a product you purchased:", 
+    sorted(data['itemDescription'].unique())
 
 # Generate Recommendations
 if st.button("Show Recommendations 🚀"):
