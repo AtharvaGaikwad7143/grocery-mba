@@ -28,7 +28,7 @@ plt.xlabel("Total Purchases")
 st.pyplot(fig1)
 
 # Product Selection
-selected = st.selectbox("Select a product you purchased:", 
+selected = st.selectbox("Select a product you purchased:"), 
                        sorted(data['itemDescription'].unique())
 
 # Generate Recommendations
